@@ -3,7 +3,7 @@ text-align: center;align-items: center;}
 #image{
 display: block;margin-left: auto;
 margin-right: auto;width: 50%;}
-h1{color: beige; background-color: black;{
+h1{color: beige; span background-color: black;}
     font-size: larger;background-color:black;color: beige;list-style: none;border-radius: 20px;
 }
-button{background-color: red;}
+
