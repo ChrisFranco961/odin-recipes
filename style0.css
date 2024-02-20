@@ -1,6 +1,6 @@
-body{background-image: url(../odin-recipes/images/background.jpg);background-position:center;background-repeat:no-repeat; display: block;
-text-align: center;align-items: center;background-size:cover;}
-body{margin: 0px;
+body{background-image: url(../odin-recipes/images/background.jpg);background-position:center;background-repeat:repeat-y; display: block;overflow: hidden;
+text-align: center;align-items: center;background-size:auto;}
+body{margin: 0px;overflow-y: hidden;}
 padding: 0px;}
 #image{
 display: block;margin-left: auto;
