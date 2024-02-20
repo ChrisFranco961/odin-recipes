@@ -1,9 +1,11 @@
-body{background-image: url(../odin-recipes/images/background.jpg); display: block;
-text-align: center;align-items: center;}
+body{background-image: url(../odin-recipes/images/background.jpg);background-position:center;background-repeat:no-repeat; display: block;
+text-align: center;align-items: center;background-size:cover;}
+body{margin: 0px;
+padding: 0px;}
 #image{
 display: block;margin-left: auto;
 margin-right: auto;width: 50%;}
-h1{color: beige; span background-color: black;}
+h1{color: beige; }
     font-size: larger;background-color:black;color: beige;list-style: none;border-radius: 20px;
 }
 
