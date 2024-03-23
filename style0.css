@@ -1,11 +1,79 @@
-body{background-image: url(../odin-recipes/images/background.jpg);background-position:center;background-repeat:repeat-y; display: block;overflow: hidden;
-text-align: center;align-items: center;background-size:auto;}
-body{margin: 0px;overflow-y: hidden;}
-padding: 0px;}
-#image{
-display: block;margin-left: auto;
-margin-right: auto;width: 50%;}
-h1{color: beige; }
-    font-size: larger;background-color:black;color: beige;list-style: none;border-radius: 20px;
+body{
+    background-image: url(./images/back.avif);
+    background-position-x:center;
+    background-size: 70vh;
+    
+}
+.container{
+    position: absolute;
+    display: flex;
+    height: 90vh;
+    width: 100vw;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
+
+.container img{
+    animation: wiggle 2.5s infinite;
+    flex: 1;
+    height: 20vh;
+    width: 30vw;
+}
+h1{
+    background-color:rgba(0, 0 , 0, .5);
+    width: 100vw;
+    text-align: center;
+    color:tomato;
+    font-family: cursive;
+    font-size: 7vh;
+
+}
+ul{
+    position: relative;
+    right: 5vw;
+    gap: 2vh;
+    flex: 3;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+}
+button{
+    font-size: 3vh;
+    font-family: cursive;
+    color: darkblue;
+    background-color: burlywood;
+    border-radius: 5%;
+    height: 10vh;
+    width: 60vw;
+    box-shadow: .3vh 1vh 1vh black;
+}
+li{
+    list-style: none;
+}
+@keyframes wiggle {
+    0% { transform: rotate(0deg); }
+   10% { transform: rotate(0deg); }
+   40% { transform: rotate(5deg); }
+   80% { transform: rotate(-5deg); }
+  100% { transform: rotate(0deg); }
+}
+
+#image {
+  display: inline-block;
+  animation: wiggle 3s infinite;
+}
+
+@media only screen and (min-width:700px){
+#image{
+    width: 16vw
+}
+ul{
+    margin-left: 7vw;
+}
+button:hover{
+    box-shadow: 1vh 1vh 2vh brown
+}
+}
